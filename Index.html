@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dendro Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="/SquareFavicon.png">
+</head>
+<body>
+  <div class="container">
+    <h2><img src='VTLogo.png' alt='VT Logo'></h2>
+    <h1> Dendro Quiz <img src='JapaneseMapleIcon.png' alt='Leaf Icon' class='smallImage'></h1>
+    <img id="leafImage" src="" alt="Tree Leaf" class="image hide">
+    
+    <div id="quiz"></div>
+    <div id="correct"></div>
+    <div id="result" class="result"></div>
+    <div id="checkBox" class="checkbox"></div>
+    
+    <input id="treeID" type="text" class="input hide"></input>
+    
+    <button id="deselectAll" class="button">Deselect All</button>
+    <button id="selectAll" class="button">Select All</button>
+
+    <button id="start" class="importantButton">Start</button>
+    <button id="spacer2" class="spacer hide"></button>
+    <button id="submit" class="importantButton hide">Submit</button>
+
+    <input id="latinName" type="text" class="input hide"></input>
+
+    <button id="spacer" class="spacer hide"></button>
+
+    <button id="secondSubmit" class="importantButton hide">Submit</button>
+    <button id="retry" class="importantButton hide">Retry</button>
+    <button id="showAnswer" class="button center hide">Show Incorrect Answers</button>
+    <button id="next" class="button hide">Next</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
