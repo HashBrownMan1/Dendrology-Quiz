@@ -556,7 +556,7 @@ function checkSecondAnswer() {
         incorrectAnswer: inputtedAnswer,
         questionNumber: currentQuestionDisplay +0.2,
         correctAnswer: quizData[currentQuestion].latinName,
-        image:  ` Latin name of <b>${quizData[currentQuestion].commonName}</b>    <img id='leafImage' src='Leaves/${quizData[currentQuestion].image}.png'' alt='Tree Leaf' class='smallImage'>`,
+        image:  ` Latin name of <b>${quizData[currentQuestion].commonName}</b>    <img id='leafImage' src='Leaves/UsedLeaves/${quizData[currentQuestion].image}.png'' alt='Tree Leaf' class='smallImage'>`,
         isClose: 'wrongAnswer',
       });
     }
